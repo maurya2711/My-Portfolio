@@ -1,5 +1,6 @@
 import otaku from './assets/images/otaku.gif'
 import netflix from './assets/images/netflix.gif'
+import trade from './assets/images/trade.gif'
 export const projects = [
   {
     title: "The Otaku Point",
@@ -18,12 +19,12 @@ export const projects = [
     link: "https://netflix-clone-b3df5.web.app/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Socialfy",
+    subtitle: "Vue js and WebSocket",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "User can create theie own token and trade them on the platform. They can buy token and trade them on. User can also withdraw usdt.",
+    image: trade,
+    link: "https://trade.rovisocial.fi/#/trade",
   },
   {
     title: "Epic Todo App",
